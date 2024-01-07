@@ -27,8 +27,18 @@ input, button, textarea, select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
 }
 
 #root, #__next {
@@ -39,8 +49,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* what is :root? https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
 :root {
-  --primary: rgb(5, 190, 113);
-  --secondary: rgb(210, 166, 234);
+  --primary: rgb(9, 163, 99);
+  --secondary: rgb(218, 17, 17);
   --primary-variant:  rgb(5, 181, 108);
   --link: rgb(0, 135, 252);
   --light: rgb(255, 255, 255);
@@ -65,7 +75,7 @@ body {
 body {
   font-family: var(--font-ubuntu);
   color: var(--dark);
-  background-color: var(--light);
+  background-color: rgb(247, 221, 184);
 }
 
 a {
@@ -302,4 +312,26 @@ button, a.button {
 .demo-notes {
   background-color: var(--demo);
   font-size: 0.875rem;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  height: 600px;
+}
+
+.pizzaImg {
+  width: 350px;
+  height: 350px;
+}
+
+.crustTutorial {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.pizzaParty {
+  display: flex;
+  justify-content: center;
 }
