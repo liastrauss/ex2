@@ -41,7 +41,7 @@ export default function PizzaPage() {
         <div className='crustTutorial'>
           <h2>How to make a <br/>pizza crust?</h2>
           <br></br>
-        <iframe width="450" height="250" src="https://www.youtube.com/embed/1-SJGQ2HLp8?si=3UbYHXfAmKLgJepd" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/1-SJGQ2HLp8?si=3UbYHXfAmKLgJepd" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
         <div className="center padding-2">
           <p>
