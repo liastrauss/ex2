@@ -12,7 +12,7 @@ import PizzaPage from './pizzaPage';
 export default function Home() {
 
   return (
-    <WebsiteScreen children={undefined}>
+    <WebsiteScreen>
       <PizzaPage/>
     </WebsiteScreen>
   )
